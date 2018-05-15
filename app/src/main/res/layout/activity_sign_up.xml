@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cuong.ant.SignUp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/edUsername03"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="User name"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/edPassword03"
+            android:layout_width="200dp"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textAlignment="center"/>
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/edPassword031"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/btnSignUp03"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#ffffff"
+            android:background="#FFFF5940"/>
+    </LinearLayout>
+
+</RelativeLayout>
